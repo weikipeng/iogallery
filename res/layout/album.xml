@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:columnWidth="160dip" />
+
+    <GridLayout
+        android:id="@+id/stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:visibility="gone"
+        android:columnCount="2"
+        android:padding="10dip"
+        android:background="#8000">
+
+        <TextView style="@style/title" android:text="@string/stats_size" />
+        <TextView android:id="@+id/stats_size" />
+    
+        <TextView style="@style/title" android:text="@string/stats_hits" />
+        <TextView android:id="@+id/stats_hits" />
+    
+        <TextView style="@style/title" android:text="@string/stats_misses" />
+        <TextView android:id="@+id/stats_misses" />
+    
+        <TextView style="@style/title" android:text="@string/stats_evictions" />
+        <TextView android:id="@+id/stats_evictions" />
+
+    </GridLayout>
+
+</FrameLayout>

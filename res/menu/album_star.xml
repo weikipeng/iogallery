@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_star"
+        android:icon="@drawable/ic_menu_star_holo_light"
+        android:title="@string/menu_star"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_star_off"
+        android:icon="@drawable/ic_menu_star_off_holo_light"
+        android:title="@string/menu_star_off"
+        android:showAsAction="always" />
+
+</menu>

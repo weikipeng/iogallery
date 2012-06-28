@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_cache"
+        android:title="@string/menu_cache"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/menu_transaction"
+        android:title="@string/menu_transaction"
+        android:checkable="true" />
+    
+</menu>

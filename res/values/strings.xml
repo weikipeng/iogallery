@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">I/O Gallery</string>
+
+    <string name="stats_size">Size</string>
+    <string name="stats_hits">Hits</string>
+    <string name="stats_misses">Misses</string>
+    <string name="stats_evictions">Evictions</string>
+
+    <string name="params_strength">Strength</string>
+    <string name="params_dark">Dark hue</string>
+    <string name="params_light">Light hue</string>
+
+    <string name="menu_cache">Enable cache</string>
+    <string name="menu_transaction">Enable transactions</string>
+    <string name="menu_effect">Duotone effect</string>
+    <string name="menu_auto_apply">Auto effect</string>
+
+    <string name="menu_star">Star</string>
+    <string name="menu_star_off">Unstar</string>
+    <string name="menu_save">Save</string>
+
+    <string name="toast_saved">Image saved</string>
+    
+    <plurals name="selected_count">
+        <item quantity="one">1 photo selected</item>
+        <item quantity="other">%d photos selected</item>
+    </plurals>
+    
+</resources>
