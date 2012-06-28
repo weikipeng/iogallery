@@ -60,6 +60,8 @@ import com.example.android.util.LruCache;
 public class AlbumActivity extends Activity {
     private static final String TAG = "IoGallery";
     
+    // TODO: place LruCache into a Loader, onRetain(), or static to keep across config changes
+
     private static final int LOADER_CURSOR = 1;
     private static final int LOADER_STARRED = 2;
 
